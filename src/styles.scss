@@ -1,1 +1,184 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+// OUR PRODUCTS
+.our-products-heading h2 span {
+  color: #a67900;
+}
+
+.our-products-heading h2 p {
+  color: #888888;
+  font-size: 18px;
+}
+
+.view-all-btn {
+  height: 44px;
+  width: 120px;
+  border-radius: 0px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #a67900;
+  border: 1px solid #a67900;
+  /* animaion */
+  background-image: linear-gradient(to right, #000 50%, #a67900 50%);
+  background-position: 100%;
+  background-size: 200% 100%;
+  transition: background-position 0.3s ease;
+}
+
+.view-all-btn:hover {
+  border: none;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+  background-position: 0%;
+}
+
+.product-detials-box {
+  position: relative;
+  bottom: 60px;
+  background-color: #a67900;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 8px;
+  transition: background-color 0.3s ease; /* Add transition property for smooth color change */
+}
+
+.product-detials-box:hover {
+  cursor: pointer;
+  color: black;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 4px 0px #00000040;
+}
+
+.product-detials-box:hover .our-product-icon-box {
+  background-color: #a67900;
+  color: #ffffff;
+}
+
+.our-products-readmore {
+  color: #a67900;
+  text-decoration: none;
+}
+
+.our-product-icon-box {
+  width: 70px;
+  height: 70px;
+  background-color: #ffffff;
+  color: #a67900;
+  position: relative;
+  bottom: 30px;
+}
+
+
+// GET IN TOUCH SECTION
+.get-Intouch-info-section {
+  background: #262626;
+  border-bottom: 3px solid #a67900;
+  padding: 50px 0;
+}
+
+.get-Intouch-info-section .title h3 {
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.get-Intouch-info-section .title p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  letter-spacing: 0.01em;
+  margin-top: 8px;
+}
+
+.get-Intouch-info-section .get-Intouch-infos {
+  padding: 21px 0;
+  padding-left: 70px;
+}
+
+.get-Intouch-info-section .get-Intouch-infos .single-get-Intouch-infos {
+  display: inline-block;
+  vertical-align: middle;
+}
+.get-Intouch-info-section
+  .get-Intouch-infos
+  .single-get-Intouch-infos
+  .icon-box {
+  width: 33px;
+}
+.get-Intouch-info-section
+  .get-Intouch-infos
+  .single-get-Intouch-infos
+  .icon-box,
+.get-Intouch-info-section
+  .get-Intouch-infos
+  .single-get-Intouch-infos
+  .text-box {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.get-Intouch-info-section
+  .get-Intouch-infos
+  .single-get-Intouch-infos
+  .icon-box,
+.get-Intouch-info-section
+  .get-Intouch-infos
+  .single-get-Intouch-infos
+  .text-box {
+  display: table-cell;
+  vertical-align: middle;
+}
+.get-Intouch-info-section
+  .get-Intouch-infos
+  .single-get-Intouch-infos
+  .text-box
+  h3 {
+  font-size: 28px;
+  font-family: "Poppins";
+  color: #a67900;
+  font-weight: 600;
+}
+.get-Intouch-info-section
+  .get-Intouch-infos
+  .single-get-Intouch-infos
+  .text-box
+  p {
+  font-size: 18px;
+  font-family: "Poppins";
+  color: #ffffff;
+  line-height: 21.33px;
+}
+
+.touch-word {
+  color: #a67900;
+}
+
+// Footer section
+footer.site-footer .footer-widget h3,
+footer.site-footer .footer-widget p,
+footer.site-footer .footer-widget ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer.site-footer .footer-widget ul.links-list li a {
+  color: #888888;
+  font-size: 15px;
+  display: inline-block;
+  line-height: 1em;
+  font-weight: 400;
+  text-decoration: none;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
